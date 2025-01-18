@@ -1,6 +1,6 @@
 # web-mysql
 ## configuration in server
-- ```sudo apt update```
+- ```sudo apt update -y```
 - ```sudo apt install apache2 php php-mysql mysql-client -y```
 - ```sudo systemctl enable apache2```
 - ```sudo systemctl start apache2```
