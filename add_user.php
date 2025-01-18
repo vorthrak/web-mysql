@@ -1,8 +1,8 @@
 <?php
-$host = "<RDS-endpoint>";
-$username = "admin";
+$host = "<endpoint database>";
+$username = "<nama user>";
 $password = "<your-password>";
-$dbname = "interactive_db";
+$dbname = "<nama database>";
 
 $conn = new mysqli($host, $username, $password, $dbname);
 
