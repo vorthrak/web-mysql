@@ -1,7 +1,7 @@
 <?php
 $host = "<endpoint database>";
-$username = "<nama user>";
-$password = "<your-password>";
+$username = "<username>";
+$password = "<password>";
 $dbname = "<nama database>";
 
 $conn = new mysqli($host, $username, $password, $dbname);
