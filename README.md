@@ -1,5 +1,5 @@
 # web-mysql
-## instalation in server
+## configuration in server
 - ```sudo apt update```
 - ```sudo apt install apache2 php php-mysql mysql-client -y```
 - ```sudo systemctl enable apache2```
@@ -20,5 +20,6 @@ CREATE TABLE <nama table> (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 SELECT * FROM <nama table>;
+exit;
 ```
 ---
